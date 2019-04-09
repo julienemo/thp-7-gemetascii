@@ -1,4 +1,4 @@
-def sum_mul_3_or_5_to_1000(number)
+def get_sum_multiple(number)
   result = 0
   n = number.to_i
   # data validation
