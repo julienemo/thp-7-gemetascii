@@ -16,10 +16,7 @@ def word_counter(corpus, dictionnary)
   return pairs
 end
 
-# well how to check this....coz Hashes can be presented in disorder
-dictionnary = ["the", "of", "and", "to", "a", "in", "for", "is", "on", "that", "by", "this", "with", "i", "you", "it", "not", "or", "be", "are"]
-willy_corpus = File.read("willy_corpus.txt")
-willy_curse = File.read("willy_curse.txt").split(" ")
-
-puts word_counter(willy_corpus, dictionnary)
-puts word_counter(willy_corpus, willy_curse)
+# these are external files
+# didn't figure out where to put them in the test.....
+# willy_corpus = File.read("willy_corpus.txt")
+# willy_curse = File.read("willy_curse.txt").split(" ")

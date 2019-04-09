@@ -12,7 +12,7 @@ def get_sum_multiple(number)
   else
   # when the number is eligible
     i = 1
-    while i <= n
+    while i < n
   # if it is a multifle of 3 or 5
       if (i % 3 == 0) || (i % 5 == 0)
   # culmulate the sum

@@ -51,6 +51,3 @@ elsif string =~ /[éèêàôîûçÇÉÈÊÎÔÛÀïëü]/
   end
 end
 
-
-puts caesar_cipher("Oh hell! Watch where you are going!!!",3)
-puts caesar_cipher("Ça alors!",3)
